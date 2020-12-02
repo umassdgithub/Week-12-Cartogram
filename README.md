@@ -3,6 +3,6 @@
 
 
 ### QGIS
-### cartogram3
+### cartogram3 (cartogram plugin)
 ### D3JS Map
  
