@@ -1,4 +1,4 @@
-# Fall 2020 Week 12 Friday
+# Week 12
 ## Cartogram Map 
 
 
