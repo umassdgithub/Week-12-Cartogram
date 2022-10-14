@@ -41,19 +41,21 @@
 
     <script>
 
-        let gop_color = "#FF0000";
-        let dem_color= "#0015BC";
+        const gop_color = "#FF0000";
+        const dem_color= "#0015BC";
         // load the data sources:
         // source 1
-        let use_election_data_2020 = "data/2020_US_County_Level_Presidential_Results.csv"
+        const use_election_data_2020 = "data/2020_US_County_Level_Presidential_Results.csv"
         // source 2: US Census Counties geojson
-        let geoJson = "data/US_Election_Cartogram.json";
+        const geoJson = "data/US_Election_Cartogram.json";
+
 
         // Step 1: Load the datasets
         Promise.all(
             [
                 d3.json(geoJson),
-                d3.csv(use_election_data_2020)]
+                d3.csv(use_election_data_2020)
+            ]
             ,d3.autoType()).then(MapGenerator); // run function main and pass the loaded data to main
 
         // Step 2: The main function will use the dataset, to generate the map
