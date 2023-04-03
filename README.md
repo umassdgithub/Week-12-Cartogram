@@ -1,4 +1,4 @@
-# Week 7
+# Week 10
 ## Cartogram Map 
 
 
@@ -19,8 +19,3 @@
 <div>
 <img src="imgs/transition.gif" width="350px">
 </div>
-
-
-### Bonus point exercise (5 points)
-
-Apply zoom (from Example 3 to the cartogram map in example 1)
